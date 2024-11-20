@@ -40,7 +40,7 @@ Il génère un rapport détaillé pour chaque machine du groupe, contenant l'OS,
 2. **Exécuter le script** :
    Lancez le script dans une console PowerShell :
    ```powershell
-   .\WSUS_KB_Verification.ps1
+   .\ScriptRapportWsus.ps1
 
 
 ## Resultat
