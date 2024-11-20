@@ -4,7 +4,6 @@
 Ce script PowerShell permet de vérifier si des correctifs spécifiques (KBs) sont installés sur les machines d'un groupe cible dans WSUS (Windows Server Update Services).  
 Il génère un rapport détaillé pour chaque machine du groupe, contenant l'OS, le correctif attendu et son statut (installé ou non).
 
----
 
 ## Fonctionnalités
 - **Chargement dynamique de l'assembly WSUS.**
@@ -12,7 +11,6 @@ Il génère un rapport détaillé pour chaque machine du groupe, contenant l'OS,
 - **Vérification des correctifs par OS** : Windows Server 2016, 2019 et 2022.
 - **Rapport CSV détaillé** généré avec les informations sur les machines et le statut des correctifs.
 
----
 
 ## Prérequis
 - **Serveur WSUS actif** : Le script doit pouvoir accéder au WSUS via son adresse et son port.
@@ -20,14 +18,12 @@ Il génère un rapport détaillé pour chaque machine du groupe, contenant l'OS,
 - **PowerShell 5.1 ou supérieur** installé.
 - **Répertoire d'exportation du rapport** (`C:\Temp\Rapport`) doit exister ou être modifié dans le script.
 
----
 
 ## Installation
 1. Clonez ou téléchargez ce dépôt.
 2. Assurez-vous que PowerShell est configuré pour exécuter des scripts (`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`).
 3. Vérifiez que les prérequis sont respectés.
 
----
 
 ## Utilisation
 
@@ -46,25 +42,21 @@ Il génère un rapport détaillé pour chaque machine du groupe, contenant l'OS,
    ```powershell
    .\WSUS_KB_Verification.ps1
 
----
 
 ## Resultat
 
 ![image](https://github.com/user-attachments/assets/f3af67df-e248-4db8-9234-6e2381ab6d68)
 
----
 
 ## Contribuer
 
 Les contributions sont les bienvenues ! N'hésitez pas à soumettre des issues ou des pull requests pour améliorer ce script.
 
----
 
 ## Licence
 
 Ce projet est sous licence [MIT](LICENSE). Vous êtes libre de l'utiliser, de le modifier et de le distribuer selon les termes de cette licence.
 
----
 
 ## Remerciements
 
