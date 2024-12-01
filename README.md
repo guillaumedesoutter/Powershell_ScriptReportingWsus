@@ -1,4 +1,4 @@
-# WSUS KB Verification Script
+# 🔍WSUS KB Verification Script
 
 ## Description
 Ce script PowerShell permet de vérifier si des correctifs spécifiques (KBs) sont installés sur les machines d'un groupe cible dans WSUS (Windows Server Update Services).  
