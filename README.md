@@ -36,14 +36,7 @@ Il génère un rapport détaillé pour chaque machine du groupe, contenant l'OS,
      ```powershell
      $TargetGroupName = "NomDuGroupe"
      ```
-   - **Liste des KB par OS** : Changez le contenu de `KBacheck` avec les KB que vous voulez vérifier correspondant à la version d'OS:
-     ```powershell
-     $KBacheck = @{
-    'Windows Server 2016' = 'KB5044293'
-    'Windows Server 2019' = 'KB5044277'
-    'Windows Server 2022' = 'KB5044281'
-   }
-   ```
+   - **Liste des KB par OS** : Changez le contenu de `KBacheck` avec les KB que vous voulez vérifier correspondant à leur version d'OS.
 
 3. **Exécuter le script** :
    Lancez le script dans une console PowerShell :
